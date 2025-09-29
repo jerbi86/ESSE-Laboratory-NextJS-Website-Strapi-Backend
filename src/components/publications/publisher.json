@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_publications_publishers",
+  "info": {
+    "displayName": "Publisher"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    },
+    "date": {
+      "type": "customField",
+      "customField": "plugin::flex-date.flex-date"
+    },
+    "additionalInformation": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

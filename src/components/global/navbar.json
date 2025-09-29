@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_navbars",
+  "info": {
+    "displayName": "navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::logo.logo"
+    },
+    "left_navbar_items": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "right_navbar_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

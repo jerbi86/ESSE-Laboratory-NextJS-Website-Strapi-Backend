@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recruitments_types",
+  "info": {
+    "singularName": "recruitments-type",
+    "pluralName": "recruitments-types",
+    "displayName": "RecruitmentsTypes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "recruitments": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::recruitment.recruitment",
+      "mappedBy": "recruitments_types"
+    }
+  }
+}

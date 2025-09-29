@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications_types",
+  "info": {
+    "singularName": "publications-type",
+    "pluralName": "publications-types",
+    "displayName": "PublicationsTypes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

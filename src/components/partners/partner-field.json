@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_partners_partner_fields",
+  "info": {
+    "displayName": "Partner_field"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::logo.logo"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

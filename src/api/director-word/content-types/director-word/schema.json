@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "director_words",
+  "info": {
+    "singularName": "director-word",
+    "pluralName": "director-words",
+    "displayName": "DirectorWord"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "director": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user-profile.user-profile"
+    },
+    "word": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

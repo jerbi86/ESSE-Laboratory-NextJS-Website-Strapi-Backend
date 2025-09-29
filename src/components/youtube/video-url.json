@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_youtube_video_urls",
+  "info": {
+    "displayName": "video_url",
+    "icon": "television"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

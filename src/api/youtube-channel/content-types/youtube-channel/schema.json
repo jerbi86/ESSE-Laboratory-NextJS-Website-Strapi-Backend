@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "youtube_channels",
+  "info": {
+    "singularName": "youtube-channel",
+    "pluralName": "youtube-channels",
+    "displayName": "youtube channel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "channel_url": {
+      "type": "string"
+    },
+    "videos": {
+      "type": "component",
+      "component": "youtube.video-url",
+      "repeatable": true
+    }
+  }
+}

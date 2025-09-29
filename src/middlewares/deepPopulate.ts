@@ -60,12 +60,12 @@ const getDeepPopulate = (uid: UID.Schema, opts: Options = {}) => {
       case 'dynamiczone': {
         // Use fragments to populate the dynamic zone components
         const populatedComponents = (attribute.components || []).reduce(
-          (acc: any, componentUID: UID.Component) => {
-            acc[componentUID] = { populate: getDeepPopulate(componentUID, opts) };
+            (acc: any, componentUID: UID.Component) => {
+              acc[componentUID] = { populate: getDeepPopulate(componentUID, opts) };
 
-            return acc;
-          },
-          {}
+              return acc;
+            },
+            {}
         );
 
         acc[attributeName] = { on: populatedComponents };

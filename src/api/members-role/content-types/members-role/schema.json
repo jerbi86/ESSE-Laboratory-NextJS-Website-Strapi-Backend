@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members_roles",
+  "info": {
+    "singularName": "members-role",
+    "pluralName": "members-roles",
+    "displayName": "MembersRoles"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

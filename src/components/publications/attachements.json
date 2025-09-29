@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_publications_attachements",
+  "info": {
+    "displayName": "Attachements"
+  },
+  "options": {},
+  "attributes": {
+    "associatedPDF": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "associatedURL": {
+      "type": "string"
+    },
+    "associatedDoi": {
+      "type": "string"
+    },
+    "associatedScholar": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
